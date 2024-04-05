@@ -16,8 +16,6 @@ jobs:
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
-        with:
-          node-version: 16
 
       - name: Install dependencies
         uses: bun install
